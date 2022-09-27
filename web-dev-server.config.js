@@ -2,5 +2,5 @@ export default {
   open: true,
   nodeResolve: true,
   appIndex: 'index.html',
-  port: 3000
+  port: process.env.PORT || 8000
 };
